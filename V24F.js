@@ -11813,7 +11813,7 @@ let cards = [
 
 const rarity = cards.filter((card) => card.rarity === "Common");
 
-const set = cards.filter((card) => card.set === "6ED");
+const set = cards.includes((card) => card.set === "6ED");
 
 console.log(rarity);
 
